@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<title>Chronic Kidney Disease Prediction</title>
+<head>
+</head>
+
+<body>
+<div style="text-align: center">
+
+<h1>CHRONIC KIDNEY DISEASE PREDICTION</h1>
+<hr>
+
+<form action="/inputs" method="post">
+<p><label>Enter your blood_urea</label>
+<input type="text" name="bloodurea" placeholder="Enter your blood urea"/></p>
+
+<p><label>Enter your blood glucose random</label>
+<input type="text" name="bloodglucose" placeholder="Enter your blood glucose random"/></p>
+
+<p></p><label>Select amnesia or not</label>
+<select id="amnesia", name="amnesia">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+</select>
+
+<p></p><label>Select coronary disease or not</label>
+<select id="coronary_disease", name="coronarydisease">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+</select>
+
+<p></p><label>Select pus cell or not</label>
+<select id="pus_cell", name="puscell">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+</select>
+
+<p></p><label>Select red blood cell level or not</label>
+<select id="red_blood_cell_level", name="redbloodcelllevel">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+</select>
+
+<p></p><label>Select diabetes mellitus or not</label>
+<select id="diabetes_mellitus", name="diabetesmellitus">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+</select>
+
+<p></p><label>Select pedal oedema or not</label>
+<select id="pedal_oedema", name="pedaloedama">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+</select>
+
+<p></p><input type="button" value=Submit>
+
+<hr>
+<br>
+</div>
+</form>
+</body>
+</html>
